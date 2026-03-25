@@ -75,6 +75,22 @@ export function Home() {
           >
             Tabs (MUI)
           </button>
+
+          <button
+            type="button"
+            onClick={() => navigate('/mapa')}
+            className="counter"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: 'min(360px, 100%)',
+              height: 52,
+              fontWeight: 700,
+            }}
+          >
+            Mapa interativo (SVG)
+          </button>
         </div>
       </div>
     </section>

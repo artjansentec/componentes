@@ -4,6 +4,7 @@ import { Home } from './pages/Home'
 import { Correios } from './pages/Correios'
 import { ChatIA } from './pages/ChatIA'
 import { ExemploTabs } from './pages/ExemploTabs'
+import { ExemploMapaInterativo } from './pages/ExemploMapaInterativo'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/correios" element={<Correios />} />
         <Route path="/chatIA" element={<ChatIA />} />
         <Route path="/tabs" element={<ExemploTabs />} />
+        <Route path="/mapa" element={<ExemploMapaInterativo />} />
       </Routes>
     </>
   )
