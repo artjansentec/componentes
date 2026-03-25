@@ -59,6 +59,22 @@ export function Home() {
           >
             Correios
           </button>
+
+          <button
+            type="button"
+            onClick={() => navigate('/tabs')}
+            className="counter"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: 'min(360px, 100%)',
+              height: 52,
+              fontWeight: 700,
+            }}
+          >
+            Tabs (MUI)
+          </button>
         </div>
       </div>
     </section>
